@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 100%;
+  height: 150vh;
+  background-color: rgb(24, 25, 26);
+  font-size: 1.4rem;
+  color: #fff;
+  font-family: "Segoe UI Historic", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header.top {
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  background-color: rgb(36, 37, 38);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px;
+}
+
+main.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding-top: 65px;
+}
+main.container .left, main.container .right {
+  width: 20%;
+  min-width: 300px;
+  height: 100%;
+  background-color: white;
+}
+main.container .mid {
+  width: 680px;
+  min-width: 375px;
+  height: 100%;
+  background-color: rgb(24, 25, 26);
+}
+main.container .mid .storys {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 230px;
+  margin-top: 15px;
+}
+main.container .mid .storys .story {
+  display: inline-block;
+  width: 129.59px;
+  height: 100%;
+  background-color: rgb(36, 37, 38);
+  border-radius: 10px;
+}
+main.container .mid .post_maker {
+  width: 100%;
+  height: 123px;
+  background-color: rgb(36, 37, 38);
+  margin: 25px 0 16px 0;
+  border-radius: 10px;
+}
+main.container .mid .other {
+  width: 100%;
+  height: 61.5px;
+  background-color: rgb(36, 37, 38);
+  border-radius: 10px;
+  margin: 16px 0 16px 0;
+}
+
+/*# sourceMappingURL=layout.css.map */
